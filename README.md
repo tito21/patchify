@@ -7,7 +7,7 @@ the most similar from a database.
 ![patched Francis color](results/francis-color-fine.png)
 ![patched Francis gray](results/francis.png)
 ![patched Francis plain](results/francis-fine.png)
-![patched Einstein](results/einstein-tongue.png)
+![patched god](results/god-color.png)
 
 # How to use
 
@@ -22,7 +22,7 @@ The tiles can also be generated using the `gabor-basis.py` script.
 Then open the jupyter notebook `dictionary-matching.ipynb` and run all the
 cells. You can experiment by changing the settings in there.
 
-You can experiment using a different set of filters and modifing the way color
+You can experiment using a different set of filters and modifying the way color
 is used.
 
 # How it works
