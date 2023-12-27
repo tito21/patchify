@@ -39,7 +39,7 @@ This features represent things like color and shapes that describe an image.
 This features are the vector that we will use for vector search.
 
 The second question can be answered in a number of ways. I used the same
-approach that is used in a novel Magnetic Resonance Imaging (MRI) called
+approach that is used in a novel Magnetic Resonance Imaging (MRI) technic called
 Magnetic Resonance Fingerprinting (MRF). The idea is to embed the image into a
 vector and find the vector from the database that gives the biggest dot product.
 Doing the dot product with all the elements of the database can be
@@ -59,7 +59,7 @@ matrix. The diagonal values of $\Sigma$, called singular values are in
 descending order. By keeping only $k$ largest values on $\Sigma$ one get an
 approximation of the matrix denoted $A_k = U\Sigma_k V^T$. The approximation
 quality improves with the number singular values kept ($k$). We can compress the
-dictionary by multiplying by the truncated $V_r$ matrix were only the first $k$
+dictionary by multiplying by the truncated $V_k$ matrix were only the first $k$
 columns are kept, $D_k = DV_k^T$. Then we can find the best tile by first
 projecting the target vector into the compressed space and find again the
 largest dot product, $i = \arg\max | D_k V_k x |$.
